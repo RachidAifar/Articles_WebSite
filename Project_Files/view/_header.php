@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySite</title>
 
-    <link rel="stylesheet" href="/Project_Files/pages/css/app.css">
+    <link rel="stylesheet" href="/Articles_WebSite/Project_Files/css/app.css">
 </head>
 <body>
     <Header>

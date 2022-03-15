@@ -10,7 +10,7 @@ $page=isset($_GET['p']) ? $_GET['p']:'home';
                              //it will not include again 
                             //so it make sure it doesn't include multiple times
 
-dump($_GET);
+
 include_once "./view/_header.php" ;
 if(file_exists("./pages/{$page}.php")){
     include "./pages/{$page}.php";
@@ -20,4 +20,4 @@ if(file_exists("./pages/{$page}.php")){
 
 include_once "./view/_footer.php";
 
-
+ 
