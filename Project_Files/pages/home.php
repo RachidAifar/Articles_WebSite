@@ -1,7 +1,6 @@
 <h1>
     Home page
 </h1>
-
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem neque sunt ut voluptas soluta nostrum commodi, vitae enim, deleniti sed inventore fuga nemo quia repellat repellendus. Animi, corporis odit?</p>
 <p>Quis unde debitis itaque. Alias eum asperiores deserunt laborum aliquid, atque, nemo unde fuga consequatur doloribus maiores. Doloremque ipsa qui unde, optio maiores, sapiente alias, commodi ipsam dolore distinctio asperiores!</p>
 <p>Pariatur eos assumenda voluptatibus cum reprehenderit corporis, laborum sed veniam laudantium quisquam, accusantium odit maxime sequi eaque molestiae corrupti veritatis totam aliquam! Consectetur a ipsa nesciunt cum placeat doloribus nobis.</p>
