@@ -1,35 +1,70 @@
-html,body{
+html,
+body {
     padding: 0;
     margin: 0;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
 
-header{
+header {
     padding: 1rem;
-    background: slateblue;
-
+    background: slategray;
 }
-footer{
+
+footer {
     padding: 1rem;
     text-align: center;
-    background-color: rgb(103, 165, 165);
+    background: slategray;
 }
-.About{
-    background: rgb(0, 85, 141);
-}
-.Home{
-    background: brown;
-}
-.card{
-    display: block;
-    background: rgb(255, 255, 255);
-    border-radius: 1rem;
-    box-shadow: 3px 3px 3px #454545;
-} 
-.page-upload .card{
-    width: 500px;
-    margin:0 auto;
 
+.page {
+    padding: 2rem 1rem;
+}
+
+.card {
+    display: block;
+    padding: 1rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #999999;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: white;
+    background-color: #3f3feb;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.page-upload .card {
+    margin: 0 auto;
+    width: 500px;
 }

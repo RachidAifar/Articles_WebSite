@@ -1,4 +1,4 @@
-<h1 >
+<h1>
     Home page
 </h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem neque sunt ut voluptas soluta nostrum commodi, vitae enim, deleniti sed inventore fuga nemo quia repellat repellendus. Animi, corporis odit?</p>
