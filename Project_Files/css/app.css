@@ -14,11 +14,22 @@ header{
 footer{
     padding: 1rem;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(103, 165, 165);
 }
 .About{
     background: rgb(0, 85, 141);
 }
 .Home{
     background: brown;
+}
+.card{
+    display: block;
+    background: rgb(255, 255, 255);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #454545;
+} 
+.page-upload .card{
+    width: 500px;
+    margin:0 auto;
+
 }
