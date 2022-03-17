@@ -1,8 +1,18 @@
+<?php
+    //todo validite
+    //todo save in database
+    //succes message
 
+
+
+if(is_post()){
+    dd($_POST);
+}
+?>
 
 
 <div class="page-upload">
-    <form class="card" action="" method="POST">
+    <form class="card" action="<?php echo page_url('upload');?>" method="POST">
         <div class="form-group">
             <label for="title">Title</label>
             <input type="text" name="title">

@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySite</title>
 
-    <link rel="stylesheet" href="/Articles_WebSite/Project_Files/css/app.css">
+    <link rel="stylesheet" href="<?php echo asset('/css/app.css');?>">
 </head>
 <body>
     <Header >
         <div class="container">
             <nav>
-                <a href="/Articles_WebSite/Project_Files/?p=home">Home</a>
-                <a href="/Articles_WebSite/Project_Files/?p=about">About</a>
-                <a href="/Articles_WebSite/Project_Files/?p=contact">Contact</a>
+                <a href="<?php echo page_url('home');?>">Home</a>
+                <a href="<?php echo page_url('about');?>">About</a>
+                <a href="<?php echo page_url('contact');?>">Contact</a>
+                <a href="<?php echo page_url('upload');?>">Upload</a>
                 
             </nav>
         </div>
