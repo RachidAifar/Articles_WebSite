@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="/Articles_WebSite/Project_Files/css/app.css">
 </head>
 <body>
-    <Header>
-        <nav>
-            <a href="/Articles_WebSite/Project_Files/?p=home">Home</a>
-            <a href="/Articles_WebSite/Project_Files/?p=about">About</a>
-            <a href="/Articles_WebSite/Project_Files/?p=contact">Contact</a>
-            
-        </nav>
+    <Header >
+        <div class="container">
+            <nav>
+                <a href="/Articles_WebSite/Project_Files/?p=home">Home</a>
+                <a href="/Articles_WebSite/Project_Files/?p=about">About</a>
+                <a href="/Articles_WebSite/Project_Files/?p=contact">Contact</a>
+                
+            </nav>
+        </div>
     </Header>
-    <main>
+    <main class="container">
     
   

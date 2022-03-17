@@ -1,5 +1,5 @@
 </main>
-<footer>
+<footer class="container">
     Something
     </footer>
 </body>

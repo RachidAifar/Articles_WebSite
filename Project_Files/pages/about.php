@@ -1,4 +1,4 @@
-    <?php include_once "./view/functions.php" ?>
+    <?php include_once "./functions.php" ?>
     <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis, ipsum nulla quidem quasi provident enim commodi, quod recusandae repellendus voluptatibus dicta aspernatur debitis placeat deleniti tempora. Nobis, cumque iusto.</p>
         <p>Velit eos obcaecati cumque sed iure. Laborum perspiciatis nemo iste accusamus nesciunt iure ad, accusantium doloribus non enim quaerat minima sint recusandae earum molestiae quis est officiis blanditiis. Fugiat, necessitatibus?</p>

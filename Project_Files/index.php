@@ -2,7 +2,8 @@
 
 //isset it check whether the variable is exist inside set or not
 //and it return true if it's yes and false if it's not
-include_once "./view/functions.php";
+include_once "config.php";
+include_once "./functions.php";
 $page=isset($_GET['p']) ? $_GET['p']:'home';
 
 

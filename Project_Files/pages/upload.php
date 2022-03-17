@@ -2,18 +2,18 @@
 
 
 <div class="page-upload">
-    <form class="card" action="">
+    <form class="card" action="" method="POST">
         <div class="form-group">
             <label for="title">Title</label>
             <input type="text" name="title">
         </div>
         <div class="form-group">
             <label for="subject">Subject</label>
-            <input type="text" name="subject">
+            <input  class="form-control" type="text" name="subject">
         </div>
         <div class="form-group">
             <label for="author">Author</label>
-            <input type="text" name="author">
+            <input  class="form-control" type="text" name="author">
         </div>
         <div class="form-group">
             <label for="description" rows="2" cols="50">Discription</label>
@@ -25,7 +25,7 @@
         </div>
         <div class="form-group">
             <label for="article">Article</label>
-            <textarea name="article"  rows="30" cols="50">
+            <textarea  class="form-control" name="article"  rows="10" cols="50">
             Enter your article here...</textarea>
         </div>
         <div class="btn">
