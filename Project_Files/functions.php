@@ -57,3 +57,14 @@ function db_close($db)
 {
     $db->close();
 }
+
+function get_articles_by_id($id)
+{
+    global $db;
+
+    $id = $db ->real_escape_string($id);
+    $result = $db->query("SELECT * FROM articles WHERE article_id = $id");
+
+    return $result-> fetch_assoc();
+    dd($result);
+}

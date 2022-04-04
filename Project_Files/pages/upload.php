@@ -50,9 +50,9 @@ if(is_post()){
 
 if (count($errors) == 0) {
     // todo change this later
-    $article_id = 1;
-    $sql = $db->prepare("INSERT INTO articles(`article_id`,`title`,`subject`,`author_name`,`discription`,`year`,`article`) VALUES (?,?,?,?,?,?,?)");
-    $sql->bind_param('issssis',$article_id,$title,$subject,$author_name,$discription,$year,$article);
+
+    $sql = $db->prepare("INSERT INTO articles(`title`,`subject`,`author_name`,`discription`,`year`,`article`) VALUES (?,?,?,?,?,?)");
+    $sql->bind_param('ssssis',$title,$subject,$author_name,$discription,$year,$article);
     $sql->execute();
     $sql->close();
 
