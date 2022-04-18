@@ -66,5 +66,17 @@ function get_articles_by_id($id)
     $result = $db->query("SELECT * FROM articles WHERE article_id = $id");
 
     return $result-> fetch_assoc();
-    dd($result);
+
 }
+
+function get_articles_list()
+{
+    global $db;
+
+    $sql="SELECT * FROM articles";
+
+    return $db-> query($sql);
+}
+
+
+
