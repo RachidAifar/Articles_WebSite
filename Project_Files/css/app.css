@@ -126,3 +126,37 @@ footer {
     margin: 0 auto;
     width:400px;
 }
+.article-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.article-list .article-items{
+    width: 25%;
+    padding: 10px;
+}
+.article-list .article-items img{
+    width:100%;
+    height: auto;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination a {
+    display: block;
+    padding: 1rem;
+    color: black;
+    background: #999999;
+    text-decoration: none;
+}
+
+.pagination a.active,
+.pagination a:hover {
+    color: white;
+    background-color: #3f3feb;
+}

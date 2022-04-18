@@ -69,14 +69,27 @@ function get_articles_by_id($id)
 
 }
 
-function get_articles_list()
+function get_articles_list( $offset = 0,$limit = PAGE_LIMIT)
 {
     global $db;
 
     $sql="SELECT * FROM articles";
+    $limit = $db->real_escape_string($limit);
+    $offset = $db->real_escape_string($offset);
 
+    $sql .= " LIMIT $limit OFFSET $offset";
     return $db-> query($sql);
 }
+function get_article_count()
+{
+    global $db;
 
+    $sql = "SELECT COUNT(*) as count FROM articles";
+    $result = $db->query($sql);
+
+    $row = $result->fetch_assoc();
+
+    return is_array($row) ? $row['count'] : 0;
+}
 
 
