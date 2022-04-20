@@ -16,6 +16,7 @@
                 <a href="<?php echo page_url('about');?>">About</a>
                 <a href="<?php echo page_url('contact');?>">Contact</a>
                 <a href="<?php echo page_url('upload');?>">Upload</a>
+              
                 
             </nav>
         </div>

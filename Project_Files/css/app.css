@@ -132,13 +132,20 @@ footer {
 }
 
 
-.article-list .article-items{
+.article-list .article-item{
     width: 25%;
     padding: 10px;
 }
-.article-list .article-items img{
+.article-list .article-item img{
     width:100%;
     height: auto;
+}
+.article-list .article-item a {
+    color: white;
+    text-decoration: none;
+}
+.article-list .article-item a:hover {
+    opacity: 0.8;
 }
 
 .pagination {
