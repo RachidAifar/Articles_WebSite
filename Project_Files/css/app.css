@@ -96,14 +96,14 @@ footer {
 }
 
 .form-group.has-error label {
-    color: tomato;
+    color: rgb(252, 38, 0);
 }
 .form-group.has-error .form-control {
-    border-color: tomato;
+    border-color: rgb(252, 38, 0);
 }
 .validation-error {
     font-size: 0.85rem;
-    color: tomato;
+    color: rgb(252, 38, 0);
 }
 
 .btn {
@@ -122,9 +122,41 @@ footer {
     opacity: 0.8;
 }
 
+
+.alert {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert.alert-success {
+    background: #15cdd3;
+    color: #171a17;
+    border: 1px solid #252525;
+}
+
+.alert.alert-warning {
+    background: #797876;
+    color: #868686;
+    border: 1px solid #f11c4a;
+}
+
+.alert.alert-error {
+    background: #a5918e;
+    color: #ff1100;
+    border: 1px solid #f31313;
+}
 .page-upload .card {
     margin: 0 auto;
     width:400px;
+}
+.page-edit .card {
+    margin: 0 auto;
+    width:400px;
+    background-color: aqua;
+}
+.page-edit .form-group{
+    color: black;
 }
 .article-list{
     display: flex;

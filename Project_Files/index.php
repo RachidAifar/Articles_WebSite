@@ -5,10 +5,13 @@
 require_once "./config.php";
 require_once "./functions.php";
 
+define('APP_VERSION','1.0.0');
 
 $db = db_connect();
 
 $page=isset($_GET['p']) ? $_GET['p']:'home';
+
+$errors=[];
 
 
 //if this function it's already included on other place
