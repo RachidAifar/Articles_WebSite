@@ -52,6 +52,7 @@ extract($articles, EXTR_SKIP);
 
 $action_url= page_url('edit_article',['article_id'=>$id]);
 ?>
+<?php include_once "./view/_header.php" ?>;
 <div class="page-edit">
     <?php if(isset($_GET['success'])):?>
         <div class="alert alert-success">
@@ -60,4 +61,5 @@ $action_url= page_url('edit_article',['article_id'=>$id]);
     <?php endif;?>
    <?php require BASE_PATH . '/view/_article_form.php';?>
 </div>
+<?php include_once "./view/_footer.php"?>;
 

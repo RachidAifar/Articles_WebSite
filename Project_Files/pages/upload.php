@@ -1,3 +1,4 @@
+
 <?php if (!defined('APP_VERSION')){
     exit;
 } ?>
@@ -32,7 +33,9 @@ if (count($errors) == 0) {
 
 $action_url= page_url('upload');
 ?>
+<?php include_once "./view/_header.php" ?>;
 <div class="page-upload">
       <?php require BASE_PATH . '/view/_article_form.php';?>
 </div>
+<?php include_once "./view/_footer.php"?>;
 

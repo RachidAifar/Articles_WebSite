@@ -1,4 +1,5 @@
 
+
 <?php if (!defined('APP_VERSION')){
     exit;
 } ?>
@@ -13,7 +14,7 @@
 
 
 
-
+<?php include_once "./view/_header.php" ?>;
 <h1>
     Home page
 </h1>
@@ -31,3 +32,4 @@
             </a>
          <?php endfor; ?>
 </nav> 
+<?php include_once "./view/_footer.php"?>;

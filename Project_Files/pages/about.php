@@ -1,4 +1,5 @@
-    <?php include_once "./functions.php" ?>
+<?php include_once "./view/_header.php" ?>;
+<?php include_once "./functions.php" ?>
     <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis, ipsum nulla quidem quasi provident enim commodi, quod recusandae repellendus voluptatibus dicta aspernatur debitis placeat deleniti tempora. Nobis, cumque iusto.</p>
         <p>Velit eos obcaecati cumque sed iure. Laborum perspiciatis nemo iste accusamus nesciunt iure ad, accusantium doloribus non enim quaerat minima sint recusandae earum molestiae quis est officiis blanditiis. Fugiat, necessitatibus?</p>
@@ -11,3 +12,4 @@
         <p>Doloribus quasi cumque quam laborum placeat distinctio ab doloremque ipsa quidem. Aperiam repudiandae adipisci nihil rem deserunt consequuntur, enim ipsum. Atque dolorem ipsa et quidem doloremque, architecto temporibus. Fuga, corporis!</p>
         <p>Maiores fuga nesciunt asperiores omnis maxime ipsa deserunt eaque, officiis quaerat consequuntur delectus quis accusamus, fugiat laborum culpa animi quam odio nemo ipsam voluptatem ullam perferendis, debitis aspernatur! Recusandae, similique.</p>
     </div>
+    <?php include_once "./view/_footer.php"?>;    
